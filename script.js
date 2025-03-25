@@ -1,7 +1,7 @@
 
 async function recherchMeteo() {
-    const APIkey = "ec5ac75bfaaba1339f2237a62b674486";
-    const city = "London";
+
+   // const city = "London";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=metric`;
     try {
       const response = await fetch(url);
